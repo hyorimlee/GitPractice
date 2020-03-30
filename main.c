@@ -1,8 +1,10 @@
 #include <stdio.h>
-
+void hi(){
+	printf("HI~~\n");
+}
 int print(int a) {
 	int i;
-	for(i=a;i>=0;i++){
+	for(i=a;i>=0;i--){
 		printf("%i\t");
 		}
 	printf("\n");
